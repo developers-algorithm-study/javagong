@@ -2,7 +2,8 @@ package test;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Test01 {
+public class numberArray {
+	// 입력한 숫자까지 1 2 2 3 3 3 4 4 4 4 숫자의 개수대로 출력하는 프로그램
 
 	public static void main(String[] args) {
 		
@@ -13,9 +14,9 @@ public class Test01 {
 		System.out.print("숫자를 입력해주세요. : ");
 		num = scan.nextInt();
 		
-		for(int i=1;i<=num;i++)
+		for(int i=1;i<=num;i++) // 숫자
 		{
-			for(int j=1;j<=i;j++) {
+			for(int j=1;j<=i;j++) { // 숫자의 개수
 				System.out.print(i+ " ");
 				number.add(i);
 			}
